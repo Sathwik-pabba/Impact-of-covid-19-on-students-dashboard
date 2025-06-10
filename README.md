@@ -44,7 +44,7 @@ To understand the multifaceted impact of the COVID-19 pandemic on the student po
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](https://github.com/Sathwik40/https://drive.google.com/file/d/1XzGFGkNiWm79CYHGyQKH8hSM5elKBRfu/view)
+![Dashboard Screenshot](https://github.com/Sathwik-pabba/Impact-of-covid-19-on-students-dashboard/blob/main/Impact%20of%20COVID-19%20on%20Students%20Dashboard.png.png)
 
 
 ---
