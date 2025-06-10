@@ -1,91 +1,85 @@
-# 👩‍💼 InnovateX HR Analytics Dashboard
+# 😷 Impact of Students on COVID-19 Dashboard
 
 ## 📊 Project Overview
 
-This project analyzes the InnovateX HR dataset to derive actionable insights, aiming to optimize HR operations, enhance employee satisfaction, and refine talent management strategies. By examining key HR metrics, the goal is to foster a positive work environment and drive organizational success.
+This project analyzes the impact of COVID-19 on students, examining trends in academic performance, mental health, and access to resources during the pandemic. The dashboard provides a comprehensive view of how student life was affected across various educational levels and demographics, utilizing Power BI for visualization.
 
 ---
 
 ## 🧩 Problem Statement
 
-To analyze the InnovateX HR dataset and identify patterns in employee attrition, performance, compensation, and demographics. The objective is to uncover insights that can improve HR decision-making, boost employee retention, and develop effective talent management strategies that align with business goals.
+To understand the multifaceted impact of the COVID-19 pandemic on the student population. This includes assessing changes in academic outcomes, identifying prevalent mental health challenges, evaluating the effectiveness of remote learning, and understanding disparities in access to essential educational resources. The goal is to provide data-driven insights for educators and policymakers to support students effectively during and after crises.
 
 ---
 
 ## 📁 Dataset Description
 
--   **EmployeeNumber**: An identifier or unique number assigned to each employee.
--   **Age**: The age of an employee (in years).
--   **Attrition**: Categorical variable indicating if an employee has left ('Yes' / 'No').
--   **AttritionCount**: Numerical value for attrition count for a specific employee.
--   **BusinessTravel**: Frequency of business travel ('Travel Frequently', 'Travel Rarely', 'Non-Travel').
--   **Department**: The department where the employee works (e.g., 'Human Resources', 'Marketing', 'Information Technology').
--   **DistanceFromHome**: Distance between employee's home and workplace (in miles/kilometers).
--   **EducationField**: The field of study for the employee's highest education.
--   **Gender**: The gender of an employee ('Male' / 'Female').
--   **HourlyRate**: The rate at which an employee is paid per hour.
--   **JobRole**: The specific role or position the employee holds.
--   **JobSatisfactionRating**: Employee's satisfaction with their job (e.g., 1 to 5 scale).
--   **WorkLifeBalanceRating**: Employee's perceived balance between work and personal life (e.g., 1 to 5 scale).
--   **PerformanceRating**: An evaluation of an employee's performance (e.g., 1 to 5 scale).
--   **MaritalStatus**: Employee's marital status ('Married', 'Single', 'Divorced').
--   **MonthlyIncome**: The employee's monthly income or salary.
--   **OverTime**: Indicates if the employee works overtime ('Yes' / 'No').
--   **PercentSalaryHike**: The percentage increase in the employee's salary.
--   **YearsAtCompany**: The number of years an employee has worked at the company.
--   **YearsSinceLastPromotion**: The number of years since the employee's last promotion.
+(Assuming a hypothetical dataset for student COVID-19 impact. You would replace this with your actual dataset's columns.)
+
+-   **Student ID**: Unique identifier for each student.
+-   **Education Level**: E.g., Primary, Secondary, Undergraduate, Graduate.
+-   **Location**: Geographic location of the student (e.g., City, State, Country).
+-   **Socio-economic Status**: Categorization of student's economic background.
+-   **Academic Performance**: Metrics like GPA, attendance rates, course completion.
+-   **Mental Health Score**: Survey-based scores on stress, anxiety, depression.
+-   **Access to Internet**: 'Yes' / 'No' indicating home internet access.
+-   **Device Access**: 'Yes' / 'No' indicating access to suitable learning devices.
+-   **Learning Mode**: E.g., Remote, Hybrid, In-person.
+-   **Support Received**: Type of academic or mental health support provided.
+-   **COVID-19 Cases (Local)**: Number of reported COVID-19 cases in student's locality (could be aggregated).
+-   **Pandemic Phase**: E.g., Initial Lockdown, Partial Reopening, New Normal.
 
 ---
 
 ## 🛠️ Steps Followed
 
--   ✅ **Data Import**: Imported and cleaned the dataset.
--   🔍 **Data Cleaning**: Handled potential nulls, corrected data types, and renamed columns as needed.
--   📊 **KPI Cards**: Defined and calculated key performance indicators such as Total Attrition Count and Total Employees.
--   📈 **Segmented Analysis**: Performed detailed analysis of attrition rates by age groups, gender, and department.
--   📉 **Performance & Compensation Analysis**: Explored employee distribution by job role and performance rating, analyzed average hourly rates by department, and average monthly income by job role and gender.
--   🔗 **Relationship Analysis**: Investigated the correlation between attrition and percent salary hike.
--   ⭐ **Top N Analysis**: Identified the top 10 employees with the highest monthly income.
--   🎨 **Visualizations**: (If applicable, for Power BI dashboard) Utilized various charts like bar charts, donut charts for attrition rates, matrix for job role/performance, clustered column charts for income, and scatter plots for relationships.
--   📌 **Filtering**: (If applicable, for Power BI dashboard) Demonstrated how filters like "Marital Status" can dynamically change report page data for deeper insights.
+-   ✅ **Data Import**: Imported and cleaned raw student data in Power BI.
+-   🔍 **Data Cleaning**: Handled missing values, corrected data types, and normalized data for analysis.
+-   📊 **KPI Cards**: Developed KPIs for average academic score, mental health distress index, and internet access rates.
+-   📅 **Time Intelligence**: Analyzed trends in academic performance and mental health over different phases of the pandemic.
+-   📌 **Drill-Through**: Enabled detailed views by education level, location, and socio-economic status.
+-   🎨 **Visuals**: Utilized line graphs for trends, bar charts for comparisons, treemaps for distribution, and interactive slicers for filtering by demographics and pandemic phases.
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Screenshot](https://github.com/YourUsername/https://drive.google.com/file/d/1XzGFGkNiWm79CYHGyQKH8hSM5elKBRfu/view)
+*(Note: Replace `https://github.com/YourUsername/YourRepoName/blob/main/covid_impact_dashboard.png` with the actual link to your dashboard screenshot on GitHub.)*
 
 ---
 
 ## 💡 Key Insights
 
-### Overall HR Metrics
-* **Total Attrition Count**: 237
-* **Total Employees**: 1470
+(These are hypothetical insights; update them with your actual findings.)
 
-### Attrition Analysis
-* **Highest Attrition Age Group**: Employees **under 25**, particularly females (48.65% attrition rate), show the highest attrition.
-* **Top Attrition Department**: The **Research & Development** department has the highest attrition count (133), indicating potential areas for concern within this area.
-* **Attrition & Salary Hike**: There is a **very weak negative correlation** (-0.0135) between attrition and percent salary hike, suggesting that salary increases alone are not a strong determinant of retention. The average salary hike for those who left (15.10%) is very similar to those who stayed (15.23%).
-
-### Compensation & Performance
-* **Dominant Performance Rating**: A significant majority of employees across all job roles have a performance rating of **3**.
-* **Similar Hourly Rates**: Average hourly rates are quite **consistent across all departments**, ranging from \$64.30 to \$66.17.
-* **Highest Paying Roles**: **Manager** and **Research Director** are the job roles with the highest average monthly incomes.
-* **Gender Income Disparity**: Generally, **males have slightly higher average monthly incomes** in most job roles compared to females.
-* **Top Earners**: The top 10 highest-paid employees are predominantly **Managers** and **Research Directors**.
+-   **Academic Performance Decline**: Average academic performance (e.g., GPA) showed a **15% decline** during peak lockdown periods, with a slow recovery.
+-   **Mental Health Impact**: A **30% increase** in reported anxiety and stress levels among students, particularly noticeable in secondary and undergraduate students.
+-   **Digital Divide**: Students from lower socio-economic backgrounds experienced **40% lower rates** of reliable internet access, significantly impacting remote learning effectiveness.
+-   **Learning Mode Efficacy**: Hybrid learning models generally correlated with better academic outcomes and lower mental distress compared to fully remote learning for younger students.
+-   **Regional Variations**: Urban areas reported higher access to online resources, while rural areas faced greater challenges in connectivity and device availability.
+-   **Gender-wise Impact**: Female students reported slightly higher instances of mental health challenges compared to male students during the pandemic.
 
 ---
 
 ## ✅ Recommendations
 
-1.  **Prioritize Youth Retention Programs**: Implement targeted mentorship programs, clear career progression paths, and engagement initiatives specifically for employees under 25 to address their high attrition rates.
-2.  **Deep Dive into R&D Department**: Conduct a thorough investigation into the 'Research & Development' department to identify root causes of high attrition. This might involve reviewing workload, management practices, career development opportunities, and work-life balance.
-3.  **Implement Holistic Retention Strategies**: Focus on non-monetary factors like work-life balance, job satisfaction, employee recognition, professional development, and a positive work culture, as salary hikes alone are not significantly impacting attrition.
-4.  **Ensure Pay Equity**: Regularly audit and adjust salary structures to ensure fairness and reduce gender-based income disparities across all job roles.
-5.  **Leverage Marital Status Filter**: Utilize `Marital Status` as an interactive filter in HR dashboards (e.g., in Power BI) to analyze specific trends (e.g., attrition, job satisfaction) within different marital groups, allowing for more tailored HR interventions.
+(These are hypothetical recommendations; update them with your actual findings.)
+
+1.  **Bridge the Digital Divide**: Implement programs to provide subsidized internet access and learning devices to disadvantaged students to ensure equitable learning opportunities.
+2.  **Prioritize Mental Health Support**: Establish and promote accessible mental health services and counseling for students at all educational levels, with a focus on early intervention.
+3.  **Optimize Hybrid Learning Models**: Invest in infrastructure and training to refine hybrid learning strategies, leveraging in-person interaction for critical subjects while retaining flexibility.
+4.  **Targeted Academic Intervention**: Develop tailored academic support programs for students who experienced significant learning loss, based on their educational level and socio-economic background.
+5.  **Data-Driven Policy Making**: Encourage continuous monitoring and analysis of student well-being and academic progress to inform adaptive educational policies during future crises.
+6.  **Teacher Training on Digital Pedagogy**: Provide comprehensive training for educators on effective digital teaching methods and tools to enhance the quality of remote and hybrid instruction.
 
 ---
 
 ## 📁 Files Included
 
-* `InnovateX HR Dataset.pbix` – (Your Power BI dashboard file, if created)
-* `InnovateX_HR_Dashboard_Preview.png` – (A screenshot of your dashboard, if created)
-* `InnovateX+HR+Data_set (1).xlsx` – The original dataset file.
+-   `COVID_Student_Impact_Dashboard.pbix` – Power BI dashboard file
+-   `COVID_Student_Impact_Data.xlsx` – Dataset used for the analysis
+-   `covid_impact_dashboard.png` – Dashboard visual screenshot
 
 ---
 
@@ -98,5 +92,5 @@ Check out more on my [GitHub Profile](https://github.com/Sathwik-pabba).
 
 ## 🔗 Connect with Me
 
-* 💼 [LinkedIn](https://linkedin.com/in/sathwikpabba)
-* 📫 Email: sathwik.pabba18@email.com
+-   💼 [LinkedIn](https://linkedin.com/in/sathwikpabba)
+-   📫 Email: sathwik.pabba18@email.com
