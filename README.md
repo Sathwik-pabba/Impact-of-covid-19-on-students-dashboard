@@ -1,96 +1,104 @@
-# 😷 Impact of Students on COVID-19 Dashboard
+# 👩‍🎓 COVID‑19 Impact on Students Dashboard
 
 ## 📊 Project Overview
 
-This project analyzes the impact of COVID-19 on students, examining trends in academic performance, mental health, and access to resources during the pandemic. The dashboard provides a comprehensive view of how student life was affected across various educational levels and demographics, utilizing Power BI for visualization.
+This Power BI dashboard explores a survey of **1,182 students** from various regions, revealing how COVID‑19 reshaped their learning, well-being, and time use. It uses advanced visuals and interactive filters to deliver insights for educators and policymakers.
 
 ---
 
 ## 🧩 Problem Statement
 
-To understand the multifaceted impact of the COVID-19 pandemic on the student population. This includes assessing changes in academic outcomes, identifying prevalent mental health challenges, evaluating the effectiveness of remote learning, and understanding disparities in access to essential educational resources. The goal is to provide data-driven insights for educators and policymakers to support students effectively during and after crises.
+COVID‑19 forced a sudden shift to remote learning, disrupting study routines, mental health, and satisfaction with learning. The goal is to analyze:
+
+- ⏰ Daily hours spent on online classes, self-study, fitness, sleep, and social media  
+- ⚖️ Weight changes and health conditions during lockdown  
+- 🎯 Stress‑relief activities used by students  
+- 📱 Preferred devices and satisfaction with online classes
 
 ---
 
 ## 📁 Dataset Description
 
-(Assuming a hypothetical dataset for student COVID-19 impact. You would replace this with your actual dataset's columns.)
-
--   **Student ID**: Unique identifier for each student.
--   **Education Level**: E.g., Primary, Secondary, Undergraduate, Graduate.
--   **Location**: Geographic location of the student (e.g., City, State, Country).
--   **Socio-economic Status**: Categorization of student's economic background.
--   **Academic Performance**: Metrics like GPA, attendance rates, course completion.
--   **Mental Health Score**: Survey-based scores on stress, anxiety, depression.
--   **Access to Internet**: 'Yes' / 'No' indicating home internet access.
--   **Device Access**: 'Yes' / 'No' indicating access to suitable learning devices.
--   **Learning Mode**: E.g., Remote, Hybrid, In-person.
--   **Support Received**: Type of academic or mental health support provided.
--   **COVID-19 Cases (Local)**: Number of reported COVID-19 cases in student's locality (could be aggregated).
--   **Pandemic Phase**: E.g., Initial Lockdown, Partial Reopening, New Normal.
+- **Student ID**: Unique identifier  
+- **Region of Residence**: Student's location  
+- **Age**: Years  
+- **Time Spent**: Online class, Self-study, Fitness, Sleep, Social media (hours/day)  
+- **Social Media Name**: Platform(s) used  
+- **Medium for Online Class**: Device or platform  
+- **Online Class Experience**: Rating (Poor/Average/Good)  
+- **Change in Weight**: Gained / Lost / Stable  
+- **Health Issues**: Yes/No  
+- **Stress Busters**: Activities that helped relieve stress  
+- **Time Utilised**: Overall time management metric
 
 ---
 
 ## 🛠️ Steps Followed
 
--   ✅ **Data Import**: Imported and cleaned raw student data in Power BI.
--   🔍 **Data Cleaning**: Handled missing values, corrected data types, and normalized data for analysis.
--   📊 **KPI Cards**: Developed KPIs for average academic score, mental health distress index, and internet access rates.
--   📅 **Time Intelligence**: Analyzed trends in academic performance and mental health over different phases of the pandemic.
--   📌 **Drill-Through**: Enabled detailed views by education level, location, and socio-economic status.
--   🎨 **Visuals**: Utilized line graphs for trends, bar charts for comparisons, treemaps for distribution, and interactive slicers for filtering by demographics and pandemic phases.
+- ✅ **Data Import**: Loaded and cleaned survey `.xlsx` file in Power BI  
+- 🔍 **Data Cleaning**: Removed nulls, fixed data types, standardized column names  
+- 📊 **KPI Cards**: Show average hours/day for online classes, fitness, sleep, and social media  
+- 🔧 **Filters & Slicers**:  
+  - **Slicer** for weight change categories  
+  - **Advanced filters** for Age < 25 and selected platforms (Instagram, YouTube, WhatsApp)  
+  - **Top N filter** for stress‑busters (top 5 activities)  
+- 🎨 **Visuals Used**:  
+  - **Bar chart**: Avg. time spent per social-media platform  
+  - **Treemap**: Class hours by device used  
+  - **Column chart**: Distribution of online-class experience ratings  
+  - **Pie chart**: Self-study hours by region  
+- 📂 **Drill-Through Pages**: Included pages to analyze weight change and health issues
 
 ---
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](https://github.com/Sathwik-pabba/Impact-of-covid-19-on-students-dashboard/blob/main/Impact%20of%20COVID-19%20on%20Students%20Dashboard.png.png)
-
+![Dashboard Screenshot]()
 
 ---
 
 ## 💡 Key Insights
 
-(These are hypothetical insights; update them with your actual findings.)
-
--   **Academic Performance Decline**: Average academic performance (e.g., GPA) showed a **15% decline** during peak lockdown periods, with a slow recovery.
--   **Mental Health Impact**: A **30% increase** in reported anxiety and stress levels among students, particularly noticeable in secondary and undergraduate students.
--   **Digital Divide**: Students from lower socio-economic backgrounds experienced **40% lower rates** of reliable internet access, significantly impacting remote learning effectiveness.
--   **Learning Mode Efficacy**: Hybrid learning models generally correlated with better academic outcomes and lower mental distress compared to fully remote learning for younger students.
--   **Regional Variations**: Urban areas reported higher access to online resources, while rural areas faced greater challenges in connectivity and device availability.
--   **Gender-wise Impact**: Female students reported slightly higher instances of mental health challenges compared to male students during the pandemic.
+- **Avg. Instagram use**: ~3 hours/day  
+- **Top stress-busters**: Music and online gaming  
+- **Weight gain**: ~40% reported weight increase  
+- **Online-class satisfaction**: Majority rated as “Poor” or “Average”  
+- **Device usage**: Laptops/desktops and smartphones were most common for online classes
 
 ---
 
 ## ✅ Recommendations
 
-(These are hypothetical recommendations; update them with your actual findings.)
-
-1.  **Bridge the Digital Divide**: Implement programs to provide subsidized internet access and learning devices to disadvantaged students to ensure equitable learning opportunities.
-2.  **Prioritize Mental Health Support**: Establish and promote accessible mental health services and counseling for students at all educational levels, with a focus on early intervention.
-3.  **Optimize Hybrid Learning Models**: Invest in infrastructure and training to refine hybrid learning strategies, leveraging in-person interaction for critical subjects while retaining flexibility.
-4.  **Targeted Academic Intervention**: Develop tailored academic support programs for students who experienced significant learning loss, based on their educational level and socio-economic background.
-5.  **Data-Driven Policy Making**: Encourage continuous monitoring and analysis of student well-being and academic progress to inform adaptive educational policies during future crises.
-6.  **Teacher Training on Digital Pedagogy**: Provide comprehensive training for educators on effective digital teaching methods and tools to enhance the quality of remote and hybrid instruction.
+1. **Introduce physical breaks**  
+   Embed short fitness segments between online classes.  
+2. **Encourage healthy screen habits**  
+   Promote digital well-being, set usage reminders.  
+3. **Boost online learning quality**  
+   Use polls, breakout rooms, and interactive content to improve engagement.  
+4. **Enhance equitable access**  
+   Provide device or data support to reduce the digital divide.  
+5. **Support mental health**  
+   Share curated playlists and community-driven gaming for stress relief.
 
 ---
 
 ## 📁 Files Included
 
--   `Impact of COVID-19 on Students Dashboard.pbix` – Power BI dashboard file
--   `InnovateX+HR+Data.set.xlsx` – Dataset used for the analysis
--   `Impact of COVID-19 on Students Dashboard.png.png` – Dashboard visual screenshot
+- `Impact_COVID19_Students_Dashboard.pbix` – Power BI report  
+- `Impact_COVID19_Students_Dashboard.png` – Dashboard screenshot  
+- `COVID19_Students_Dataset.xlsx` – Survey dataset
 
 ---
 
 ## 🙋‍♂️ About Me
 
-I'm a data analyst with expertise in **Power BI**, **SQL**, and **Python**, passionate about turning raw data into clear business insights.
-Check out more on my [GitHub Profile](https://github.com/Sathwik-pabba).
+I’m **[Your Name]**, a data analyst skilled in **Power BI, SQL & Python**, passionate about transforming data into impactful stories.  
+Check out more projects: [GitHub Profile](https://github.com/Sathwik-pabba)
 
 ---
 
 ## 🔗 Connect with Me
 
--   💼 [LinkedIn](https://linkedin.com/in/sathwikpabba)
--   📫 Email: sathwik.pabba18@email.com
+- 💼 [LinkedIn](https://linkedin.com/in/YourProfile)  
+- 📫 Email: your.email@example.com
+
