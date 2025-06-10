@@ -55,4 +55,48 @@ To analyze the InnovateX HR dataset and identify patterns in employee attrition,
 
 ### Overall HR Metrics
 * **Total Attrition Count**: 237
-*
+* **Total Employees**: 1470
+
+### Attrition Analysis
+* **Highest Attrition Age Group**: Employees **under 25**, particularly females (48.65% attrition rate), show the highest attrition.
+* **Top Attrition Department**: The **Research & Development** department has the highest attrition count (133), indicating potential areas for concern within this area.
+* **Attrition & Salary Hike**: There is a **very weak negative correlation** (-0.0135) between attrition and percent salary hike, suggesting that salary increases alone are not a strong determinant of retention. The average salary hike for those who left (15.10%) is very similar to those who stayed (15.23%).
+
+### Compensation & Performance
+* **Dominant Performance Rating**: A significant majority of employees across all job roles have a performance rating of **3**.
+* **Similar Hourly Rates**: Average hourly rates are quite **consistent across all departments**, ranging from \$64.30 to \$66.17.
+* **Highest Paying Roles**: **Manager** and **Research Director** are the job roles with the highest average monthly incomes.
+* **Gender Income Disparity**: Generally, **males have slightly higher average monthly incomes** in most job roles compared to females.
+* **Top Earners**: The top 10 highest-paid employees are predominantly **Managers** and **Research Directors**.
+
+---
+
+## ✅ Recommendations
+
+1.  **Prioritize Youth Retention Programs**: Implement targeted mentorship programs, clear career progression paths, and engagement initiatives specifically for employees under 25 to address their high attrition rates.
+2.  **Deep Dive into R&D Department**: Conduct a thorough investigation into the 'Research & Development' department to identify root causes of high attrition. This might involve reviewing workload, management practices, career development opportunities, and work-life balance.
+3.  **Implement Holistic Retention Strategies**: Focus on non-monetary factors like work-life balance, job satisfaction, employee recognition, professional development, and a positive work culture, as salary hikes alone are not significantly impacting attrition.
+4.  **Ensure Pay Equity**: Regularly audit and adjust salary structures to ensure fairness and reduce gender-based income disparities across all job roles.
+5.  **Leverage Marital Status Filter**: Utilize `Marital Status` as an interactive filter in HR dashboards (e.g., in Power BI) to analyze specific trends (e.g., attrition, job satisfaction) within different marital groups, allowing for more tailored HR interventions.
+
+---
+
+## 📁 Files Included
+
+* `InnovateX HR Dataset.pbix` – (Your Power BI dashboard file, if created)
+* `InnovateX_HR_Dashboard_Preview.png` – (A screenshot of your dashboard, if created)
+* `InnovateX+HR+Data_set (1).xlsx` – The original dataset file.
+
+---
+
+## 🙋‍♂️ About Me
+
+I'm a data analyst with expertise in **Power BI**, **SQL**, and **Python**, passionate about turning raw data into clear business insights.
+Check out more on my [GitHub Profile](https://github.com/Sathwik-pabba).
+
+---
+
+## 🔗 Connect with Me
+
+* 💼 [LinkedIn](https://linkedin.com/in/sathwikpabba)
+* 📫 Email: sathwik.pabba18@email.com
