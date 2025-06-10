@@ -78,7 +78,7 @@ To understand the multifaceted impact of the COVID-19 pandemic on the student po
 ## 📁 Files Included
 
 -   `Impact of COVID-19 on Students Dashboard.pbix` – Power BI dashboard file
--   `COVID_Student_Impact_Data.xlsx` – Dataset used for the analysis
+-   `InnovateX+HR+Data.set.xlsx` – Dataset used for the analysis
 -   `Impact of COVID-19 on Students Dashboard.png.png` – Dashboard visual screenshot
 
 ---
