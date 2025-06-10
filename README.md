@@ -44,7 +44,7 @@ To understand the multifaceted impact of the COVID-19 pandemic on the student po
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](https://drive.google.com/file/d/1XzGFGkNiWm79CYHGyQKH8hSM5elKBRfu/view)
+![Dashboard Screenshot](https://github.com/Sathwik40/https://drive.google.com/file/d/1XzGFGkNiWm79CYHGyQKH8hSM5elKBRfu/view)
 
 
 ---
