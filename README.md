@@ -84,7 +84,7 @@ COVID‑19 forced a sudden shift to remote learning, disrupting study routines, 
 
 ## 📁 Files Included
 
-- `Impact_COVID19_Students_Dashboard.pbix` – Power BI report  
+- `Impact of COVID-19 on Students Dashboard.pbix` – Power BI report  
 - `Impact of COVID-19 on Students Dashboard.png.png` – Dashboard screenshot  
 - `COVID19_Students_Dataset.xlsx` – Survey dataset
 
