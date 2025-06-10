@@ -53,7 +53,7 @@ COVID‑19 forced a sudden shift to remote learning, disrupting study routines, 
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/Sathwik-pabba/Impact-of-covid-19-on-students-dashboard/blob/main/Impact%20of%20COVID-19%20on%20Students%20Dashboard.png.png)
 
 ---
 
