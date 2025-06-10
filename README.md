@@ -92,7 +92,7 @@ COVID‑19 forced a sudden shift to remote learning, disrupting study routines, 
 
 ## 🙋‍♂️ About Me
 
-I’m **[Pabba Sathwik]**, a data analyst skilled in **Power BI, SQL & Python**, passionate about transforming data into impactful stories.  
+I’m **Pabba Sathwik**, a data analyst skilled in **Power BI, SQL & Python**, passionate about transforming data into impactful stories.  
 Check out more projects: [GitHub Profile](https://github.com/Sathwik-pabba)
 
 ---
