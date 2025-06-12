@@ -92,8 +92,8 @@ COVID‑19 forced a sudden shift to remote learning, disrupting study routines, 
 
 ## 🙋‍♂️ About Me
 
-I’m **Pabba Sathwik**, a data analyst skilled in **Power BI, SQL & Python**, passionate about transforming data into impactful stories.  
-Check out more projects: [GitHub Profile](https://github.com/Sathwik-pabba)
+I'm a data analyst with expertise in **Power BI**, **Tableau**, **SQL**, and **Python**, **Pandas**, **NumPy**, and **data visualization**, **Matplotlib**, **Seaborn**, **MongoDB**, **Excel**. Passionate about turning raw data into clear business insights.  
+Check out more on my [GitHub Profile](https://github.com/Sathwik-pabba).
 
 ---
 
