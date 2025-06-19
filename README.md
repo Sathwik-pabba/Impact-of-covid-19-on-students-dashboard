@@ -93,12 +93,12 @@ COVID‑19 forced a sudden shift to remote learning, disrupting study routines, 
 ## 🙋‍♂️ About Me
 
 I'm a data analyst with expertise in **Power BI**, **Tableau**, **SQL**, and **Python**, **Pandas**, **NumPy**, and **data visualization**, **Matplotlib**, **Seaborn**, **MongoDB**, **Excel**. Passionate about turning raw data into clear business insights.  
-Check out more on my [GitHub Profile](https://github.com/Sathwik-pabba).
+Check out more on my [GitHub Profile](https://github.com/pabbasathwik).
 
 ---
 
 ## 🔗 Connect with Me
 
-- 💼 [LinkedIn](https://linkedin.com/in/YourProfile)  
-- 📫 Email: your.email@example.com
+- 💼 [LinkedIn](https://linkedin.com/in/sathwikpabba)  
+- 📫 Email: sathwik.pabba18@gmail.com
 
